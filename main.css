@@ -1,9 +1,11 @@
 body, html {
     height: 100%;
     font-family: "Inconsolata", sans-serif;
+    scroll-behavior:smooth;
+    background-color: rgb(50, 48, 187)
 }
-  
-.bgimg {
+
+.logo {
     background-position: center;
     background-size: cover;
     background-image: url("images/logo.png");
