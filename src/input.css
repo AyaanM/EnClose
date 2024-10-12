@@ -2,22 +2,3 @@
 @tailwind components;
 @tailwind utilities;
 
-body, html {
-    height: 100%;
-    font-family: "Inconsolata", sans-serif;
-    scroll-behavior:smooth;
-}
-
-.logo {
-    background-position: center;
-    background-size: cover;
-    background-image: url("./img/logo.png");
-    min-height: 65%;
-    display: block;
-    margin-right: auto;
-    width: 65%;
-}
-
-.menu {
-    display: none;
-}
