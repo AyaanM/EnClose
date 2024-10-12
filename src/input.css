@@ -1,17 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body, html {
     height: 100%;
     font-family: "Inconsolata", sans-serif;
     scroll-behavior:smooth;
-    background-color: rgb(50, 48, 187)
 }
 
 .logo {
     background-position: center;
     background-size: cover;
-    background-image: url("images/logo.png");
-    min-height: 50%;
+    background-image: url("./img/logo.png");
+    min-height: 65%;
+    display: block;
+    margin-right: auto;
+    width: 65%;
 }
-  
+
 .menu {
     display: none;
 }
