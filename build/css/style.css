@@ -569,10 +569,11 @@ body, html {
   background-position: center;
   background-size: cover;
   background-image: url('../../img/logo.png');
-  min-height: 65%;
   display: block;
+  min-height: 65%;
   margin-right: auto;
-  width: 65%;
+  margin-left: auto;
+  width: 50%;
 }
 
 .menu {
