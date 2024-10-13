@@ -554,8 +554,8 @@ video {
   display: none;
 }
 
-.block {
-  display: block;
+.fixed {
+  position: fixed;
 }
 
 body, html {
@@ -568,7 +568,7 @@ body, html {
 .logo {
   background-position: center;
   background-size: cover;
-  background-image: url('../../img/logo.png');
+  background-image: url('../img/logo.png');
   display: block;
   min-height: 65%;
   margin-right: auto;

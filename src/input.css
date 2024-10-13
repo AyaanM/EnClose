@@ -2,3 +2,24 @@
 @tailwind components;
 @tailwind utilities;
 
+body, html {
+    height: 100%;
+    font-family: "Inconsolata", sans-serif;
+    scroll-behavior:smooth;
+    background: radial-gradient(black, purple)
+  }
+  
+.logo {
+background-position: center;
+background-size: cover;
+background-image: url('../img/logo.png');
+display: block;
+min-height: 65%;
+margin-right: auto;
+margin-left: auto;
+width: 50%;
+}
+
+.menu {
+display: none;
+}
