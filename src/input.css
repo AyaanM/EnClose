@@ -1,25 +1,23 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
 
 body, html {
     height: 100%;
     font-family: "Inconsolata", sans-serif;
-    scroll-behavior:smooth;
-    background: radial-gradient(black, purple)
-  }
-  
+}
+
 .logo {
-background-position: center;
-background-size: cover;
-background-image: url('../img/logo.png');
-display: block;
-min-height: 65%;
-margin-right: auto;
-margin-left: auto;
-width: 50%;
+    background-position: center;
+    background-size: cover;
+    background-image: url("../img/logo.png");
+    min-height: 65%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 50%;
 }
 
 .menu {
-display: none;
+    display: none;
 }
