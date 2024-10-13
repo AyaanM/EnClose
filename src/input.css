@@ -7,17 +7,10 @@ body, html {
     font-family: "Inconsolata", sans-serif;
 }
 
-.logo {
-    background-position: center;
-    background-size: cover;
-    background-image: url("../img/logo.png");
-    min-height: 65%;
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
-    width: 50%;
+.bg-gradient {
+    background: radial-gradient(black, purple);
 }
 
-.menu {
-    display: none;
+.logo {
+    background-image: url("../img/logo.png");
 }
